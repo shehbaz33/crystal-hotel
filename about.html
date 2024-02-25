@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Crystal Mumbai</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Tailwind CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Example of using Work Sans font for h1 */
+      h1 {
+        font-family: "Work Sans", sans-serif;
+      }
+
+      /* Example of using Merriweather font for paragraph */
+      p {
+        font-family: "Merriweather", serif;
+      }
+
+      /* Example of creating a custom class using Work Sans font */
+      .custom-font {
+        font-family: "Work Sans", sans-serif;
+      }
+      .carousel-caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .caption-content {
+        background-color: rgba(77, 0, 0, 0.7);
+        padding: 80px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body class="font-sans">
+    <div class="w-screen bg-[#00e4fb]">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-red-800">
+        <div class="container">
+          <a class="navbar-brand text-white" href="index.html">
+            The Crystal Hotel
+          </a>
+          <!-- Hamburger Menu Button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="flex justify-center item-center">
+        <div class="flex jusitfy-center flex-col items-center"></div>
+      </div>
+    </div>
+    <!-- !-- Carousel -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block w-100"
+            src="./iloveimg-compressed/DSC_0014.jpg"
+            alt="First slide"
+          />
+          <div class="carousel-caption hidden md:block text-center">
+            <div class="caption-content">
+              <h1 class="text-5xl pb-2">About Hotel Crystal</h1>
+              <p>
+                Crystal Hotel, where hospitality meets elegance and every guest
+                is treated like family. Nestled in the heart of Mumbai Central,
+                our hotel chain is dedicated to providing exceptional service
+                and unforgettable experiences to travelers from around the
+                world.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="./iloveimg-compressed/DSC_0082.jpg"
+            alt="Second slide"
+          />
+          <div class="carousel-caption hidden md:block text-center">
+            <div class="caption-content">
+              <h1 class="text-5xl pb-2">About Hotel Crystal</h1>
+              <p>
+                Crystal Hotel, where hospitality meets elegance and every guest
+                is treated like family. Nestled in the heart of Mumbai Central,
+                our hotel chain is dedicated to providing exceptional service
+                and unforgettable experiences to travelers from around the
+                world.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="./iloveimg-compressed/DSC_0015.jpg"
+            alt="Third slide"
+          />
+          <div class="carousel-caption hidden md:block text-center">
+            <div class="caption-content">
+              <h1 class="text-5xl pb-2">About Hotel Crystal</h1>
+              <p>
+                Crystal Hotel, where hospitality meets elegance and every guest
+                is treated like family. Nestled in the heart of Mumbai Central,
+                our hotel chain is dedicated to providing exceptional service
+                and unforgettable experiences to travelers from around the
+                world.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="body-font bg-red-800 overflow-hidden">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="-my-8 divide-y-2 divide-gray-100">
+          <div class="py-8 flex flex-wrap md:flex-nowrap">
+            <div class="md:flex-grow">
+              <h2 class="text-2xl font-medium text-white title-font mb-2">
+                Our Story
+              </h2>
+              <p class="leading-relaxed text-gray-200">
+                Crystal Hotel has been a beacon of hospitality, offering a home
+                away from home for discerning guests seeking comfort,
+                convenience, and personalized attention, we have built a
+                reputation for excellence and commitment to exceeding guest
+                expectations.
+              </p>
+            </div>
+          </div>
+          <div class="py-8 flex flex-wrap md:flex-nowrap">
+            <div class="md:flex-grow">
+              <h2 class="text-2xl font-medium text-white title-font mb-2">
+                Our Mission
+              </h2>
+              <p class="leading-relaxed text-gray-200">
+                At Crystal Hotel, our mission is simple: to create memorable
+                moments and meaningful connections that last a lifetime. We
+                strive to provide an unparalleled level of service, ensuring
+                that every guest feels valued, appreciated, and cared for
+                throughout their stay.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <h1
+          class="text-3xl font-medium title-font text-gray-900 mb-12 text-center"
+        >
+          Testimonials
+        </h1>
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 md:w-1/2 w-full">
+            <div class="h-full bg-gray-100 p-8 rounded">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="block w-5 h-5 text-gray-400 mb-4"
+                viewBox="0 0 975.036 975.036"
+              >
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                ></path>
+              </svg>
+              <p class="leading-relaxed mb-6">
+                (Translated by Google) The best hotel, the quietest, the best
+                treatment and respect from everyone (Original) احسن فندق و هادي
+                و احسن معامله والاحترام من الجميع | Rooms5.0 | Service5.0 |
+                Location5.0 | Hotel highlightsLuxury | Great view | Romantic |
+                Quiet | Kid-friendly | Great value
+              </p>
+              <a class="inline-flex items-center">
+                <img
+                  alt="testimonial"
+                  src="https://dummyimage.com/106x106"
+                  class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                />
+                <span class="flex-grow flex flex-col pl-4">
+                  <span class="title-font font-medium text-gray-900"
+                    >Tariq Murad</span
+                  >
+                  <span class="text-gray-500 text-sm">Business ❘ Family</span>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/2 w-full">
+            <div class="h-full bg-gray-100 p-8 rounded">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="block w-5 h-5 text-gray-400 mb-4"
+                viewBox="0 0 975.036 975.036"
+              >
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                ></path>
+              </svg>
+              <p class="leading-relaxed mb-6">
+                Rooms4.0 | Service4.0 | Location5.0 | Hotel highlights | Quiet
+              </p>
+              <a class="inline-flex items-center">
+                <img
+                  alt="testimonial"
+                  src="https://dummyimage.com/107x107"
+                  class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                />
+                <span class="flex-grow flex flex-col pl-4">
+                  <span class="title-font font-medium text-gray-900"
+                    >Mohammad Sameer</span
+                  >
+                  <span class="text-gray-500 text-sm">Business ❘ Solo</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-white bg-red-800 body-font">
+      <div
+        class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+      >
+        <a
+          class="flex title-font font-medium items-center md:justify-start justify-center text-white"
+        >
+          <span class="ml-3 text-xl">Hotel Crystal Mumbai</span>
+        </a>
+        <span
+          class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+        >
+          <h6 class="text-xs">
+            9, Gilder Path, opp. Navjivan Society, Marzban Parsi Colony, Dalal
+            Estate, Mumbai Central, Mumbai, Maharashtra 400008
+          </h6>
+        </span>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN (optional, if you need Bootstrap JavaScript functionality) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Script for automatic sliding every 1 second -->
+    <script>
+      $(document).ready(function () {
+        // Set interval for sliding every 1 second
+        setInterval(function () {
+          $("#carouselExampleControls").carousel("next");
+        }, 3000);
+      });
+    </script>
+    <!-- Bootstrap JS CDN (optional, if you need Bootstrap JavaScript functionality) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

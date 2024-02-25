@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Crystal Mumbai</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Tailwind CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Example of using Work Sans font for h1 */
+      h1 {
+        font-family: "Work Sans", sans-serif;
+      }
+
+      /* Example of using Merriweather font for paragraph */
+      p {
+        font-family: "Merriweather", serif;
+      }
+
+      /* Example of creating a custom class using Work Sans font */
+      .custom-font {
+        font-family: "Work Sans", sans-serif;
+      }
+      .carousel-caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .caption-content {
+        background-color: rgba(77, 0, 0, 0.7);
+        padding: 80px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body class="font-sans">
+    <div class="w-screen bg-[#00e4fb]">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-red-800">
+        <div class="container">
+          <a class="navbar-brand text-white" href="index.html">
+            The Crystal Hotel
+          </a>
+          <!-- Hamburger Menu Button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon text-white"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="flex justify-center item-center">
+        <div class="flex jusitfy-center flex-col items-center"></div>
+      </div>
+    </div>
+
+    <!-- !-- Carousel -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block w-100"
+            src="./iloveimg-compressed/main.jpg"
+            alt="First slide"
+          />
+          <div class="carousel-caption hidden md:block text-center">
+            <div class="caption-content">
+              <h1 class="text-5xl pb-2">Welcome to Hotel Crystal</h1>
+              <p>
+                Welcome to Hotel Crystal, where luxury meets comfort. Whether
+                you're traveling for business or pleasure, our hotels offer an
+                unparalleled experience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="./iloveimg-compressed/DSC_0076.jpg"
+            alt="Second slide"
+          />
+          <div class="carousel-caption hidden md:block text-center">
+            <div class="caption-content">
+              <h1 class="text-5xl pb-2">Explore Hotel Crystal</h1>
+              <p>
+                Explore our exquisite rooms, enjoy fine dining at our
+                restaurants, and experience world-class hospitality throughout
+                your stay.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="./iloveimg-compressed/DSC_0007.jpg"
+            alt="Third slide"
+          />
+          <div class="carousel-caption hidden md:block text-center">
+            <div class="caption-content">
+              <h1 class="text-5xl pb-2">Relax at Hotel Crystal</h1>
+              <p>
+                Relax in our comfortable lounges, savor delectable cuisine at
+                our restaurants, and enjoy personalized service throughout your
+                stay at Hotel Crystal.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h1
+            class="text-2xl md:text-5xl font-medium title-font mb-4 text-red-800"
+          >
+            Welcome to the World of Hotel Crystal
+          </h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-md md:text-base">
+            Crystal Hotel welcomes you to a place where warmth and camaraderie
+            flourish, where every moment is cherished among friends and family.
+          </p>
+        </div>
+        <div class="flex flex-wrap -m-4">
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative h-60">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="./iloveimg-compressed/DSC_0008.jpg"
+              />
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+              >
+                <h2
+                  class="tracking-widest text-sm title-font font-medium text-red-800 mb-1"
+                >
+                  CRYSTAL HOTEL
+                </h2>
+                <p class="leading-relaxed">
+                  At Crystal Hotel, bonds are forged and memories are created,
+                  as kinfolk gather to share laughter and joy in our inviting
+                  atmosphere.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative h-60">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="./iloveimg-compressed/DSC_0099.jpg"
+              />
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+              >
+                <h2
+                  class="tracking-widest text-sm title-font font-medium text-red-800 mb-1"
+                >
+                  CRYSTAL HOTEL
+                </h2>
+                <p class="leading-relaxed">
+                  Experience the comfort and hospitality of Crystal Hotel, where
+                  each visit feels like coming home, enveloped in a sense of
+                  belonging and togetherness
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative h-60">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="./iloveimg-compressed/DSC_0076.jpg"
+              />
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+              >
+                <h2
+                  class="tracking-widest text-sm title-font font-medium text-red-800 mb-1"
+                >
+                  CRYSTAL HOTEL
+                </h2>
+                <p class="leading-relaxed">
+                  Discover the essence of style and comfort at Crystal Hotel,
+                  where fashion meets functionality in our trendy leggings,
+                  perfect for any occasion.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative h-60">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="./iloveimg-compressed/DSC_0063.jpg"
+              />
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+              >
+                <h2
+                  class="tracking-widest text-sm title-font font-medium text-red-800 mb-1"
+                >
+                  CRYSTAL HOTEL
+                </h2>
+                <p class="leading-relaxed">
+                  Indulge in the culinary delights of Crystal Hotel, where
+                  flavorful dishes ignite the senses and leave a lasting
+                  impression on every palate.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative h-60">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="./iloveimg-compressed/DSC_0064.jpg"
+              />
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+              >
+                <h2
+                  class="tracking-widest text-sm title-font font-medium text-red-800 mb-1"
+                >
+                  CRYSTAL HOTEL
+                </h2>
+                <p class="leading-relaxed">
+                  Escape the ordinary and unwind at Crystal Hotel, where
+                  tranquility abounds and relaxation is the order of the day,
+                  offering a retreat from the hustle and bustle of daily life.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative h-60">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="./iloveimg-compressed/DSC_0091.jpg"
+              />
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+              >
+                <h2
+                  class="tracking-widest text-sm title-font font-medium text-red-800 mb-1"
+                >
+                  CRYSTAL HOTEL
+                </h2>
+                <p class="leading-relaxed">
+                  Indulge in the culinary delights of Crystal Hotel, where
+                  flavorful dishes ignite the senses and leave a lasting
+                  impression on every palate
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-white bg-red-800 body-font">
+      <div
+        class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+      >
+        <a
+          class="flex title-font font-medium items-center md:justify-start justify-center text-white"
+        >
+          <span class="ml-3 text-xl">Hotel Crystal Mumbai</span>
+        </a>
+        <span
+          class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+        >
+          <h6 class="text-xs">
+            9, Gilder Path, opp. Navjivan Society, Marzban Parsi Colony, Dalal
+            Estate, Mumbai Central, Mumbai, Maharashtra 400008
+          </h6>
+        </span>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN (optional, if you need Bootstrap JavaScript functionality) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Script for automatic sliding every 1 second -->
+    <script>
+      $(document).ready(function () {
+        // Set interval for sliding every 1 second
+        setInterval(function () {
+          $("#carouselExampleControls").carousel("next");
+        }, 3000);
+      });
+      const btnNav = document.getElementById("btn-nav");
+      const mobNav = document.getElementById("mob-nav");
+
+      btnNav.addEventListener("click", () => {
+        mobNav.classList.toggle("h-10"); // Toggle the height class here
+      });
+    </script>
+  </body>
+</html>
