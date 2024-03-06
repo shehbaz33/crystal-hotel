@@ -50,6 +50,12 @@
         padding: 80px;
         border-radius: 5px;
       }
+
+      .zoomed-in {
+        transform: scale(2); /* You can adjust the scale factor as needed */
+        transition: transform 0.3s ease; /* Add a smooth transition effect */
+        z-index: 1000; /* Ensure the zoomed-in image appears on top of other elements */
+      }
     </style>
   </head>
   <body class="font-sans">
@@ -57,7 +63,12 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-red-800">
         <div class="container">
           <a class="navbar-brand text-white" href="index.html">
-            The Crystal Hotel
+            <img
+              src="./iloveimg-compressed/Crystal logo.jpg"
+              alt=""
+              class="w-28"
+              srcset=""
+            />
           </a>
           <!-- Hamburger Menu Button -->
           <button
@@ -115,6 +126,7 @@
             <div class="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full object-cover h-full object-center block"
                 src="./iloveimg-compressed/DSC_0010.jpg"
               />
@@ -122,6 +134,7 @@
             <div class="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full object-cover h-full object-center block"
                 src="./iloveimg-compressed/DSC_0063.jpg"
               />
@@ -129,6 +142,7 @@
             <div class="md:p-2 p-1 w-full">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full h-full object-cover object-center block"
                 src="./iloveimg-compressed/DSC_0072.jpg"
               />
@@ -138,6 +152,7 @@
             <div class="md:p-2 p-1 w-full">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full h-full object-cover object-center block"
                 src="./iloveimg-compressed/DSC_0012.jpg"
               />
@@ -145,6 +160,7 @@
             <div class="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full object-cover h-full object-center block"
                 src="./iloveimg-compressed/DSC_0021.jpg"
               />
@@ -152,6 +168,7 @@
             <div class="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full object-cover h-full object-center block"
                 src="./iloveimg-compressed/DSC_0022.jpg"
               />
@@ -164,6 +181,7 @@
             <div class="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full object-cover h-full object-center block"
                 src="./iloveimg-compressed/DSC_0090.jpg"
               />
@@ -171,6 +189,7 @@
             <div class="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full object-cover h-full object-center block"
                 src="./iloveimg-compressed/DSC_0091.jpg"
               />
@@ -178,6 +197,7 @@
             <div class="md:p-2 p-1 w-full">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full h-full object-cover object-center block"
                 src="./iloveimg-compressed/DSC_0092.jpg"
               />
@@ -187,6 +207,7 @@
             <div class="md:p-2 p-1 w-full">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full h-full object-cover object-center block"
                 src="./iloveimg-compressed/DSC_0094.jpg"
               />
@@ -194,6 +215,7 @@
             <div class="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full object-cover h-full object-center block"
                 src="./iloveimg-compressed/DSC_0096.jpg"
               />
@@ -201,6 +223,7 @@
             <div class="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full object-cover h-full object-center block"
                 src="./iloveimg-compressed/DSC_0097.jpg"
               />
@@ -213,6 +236,7 @@
             <div class="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full object-cover h-full object-center block"
                 src="./iloveimg-compressed/DSC_0098.jpg"
               />
@@ -220,6 +244,7 @@
             <div class="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full object-cover h-full object-center block"
                 src="./iloveimg-compressed/DSC_0099.jpg"
               />
@@ -227,6 +252,7 @@
             <div class="md:p-2 p-1 w-full">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full h-full object-cover object-center block"
                 src="./iloveimg-compressed/DSC_0100.jpg"
               />
@@ -236,6 +262,7 @@
             <div class="md:p-2 p-1 w-full">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full h-full object-cover object-center block"
                 src="./iloveimg-compressed/DSC_0110.jpg"
               />
@@ -243,6 +270,7 @@
             <div class="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full object-cover h-full object-center block"
                 src="./iloveimg-compressed/DSC_0111.jpg"
               />
@@ -250,6 +278,7 @@
             <div class="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
+                id="zoomable-image"
                 class="w-full object-cover h-full object-center block"
                 src="./iloveimg-compressed/DSC_0115.jpg"
               />
@@ -272,7 +301,7 @@
           class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
         >
           <h6 class="text-xs">
-            9, Gilder Path, opp. Navjivan Society, Marzban Parsi Colony, Dalal
+            9, Gilder Lane, opp. Navjivan Society, Marzban Parsi Colony, Dalal
             Estate, Mumbai Central, Mumbai, Maharashtra 400008
           </h6>
         </span>
